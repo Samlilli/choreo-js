@@ -10,7 +10,7 @@ Choreo.js is a lightweight helper for the Web Animations Javascript API, that al
 
 ## Example
 
-[!example](blob:http://imgur.com/f6396781-a3f5-4c4d-ab6b-4e6582d8e8d0)
+<img alt="Choreo.js" src="blob:http://imgur.com/f6396781-a3f5-4c4d-ab6b-4e6582d8e8d0">
 
 
 ## Before you get creating slick animation sequences
