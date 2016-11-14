@@ -27,9 +27,9 @@ createScene({
 })
 ```
 ## Configuration Options
-`sceneDelay`: Scene delay (ms) sets a global animation delay by overriding the animations delay (specified in animationType)
-`elements`: Pass in an array of classes as strings, in order that you'd like them to execute
-`animationType`: Either use the built in animations by passing in string names, or define your own animation objects like this:
+* `sceneDelay`: Scene delay (ms) sets a global animation delay by overriding the animations delay (specified in animationType)
+* `elements`: Pass in an array of classes as strings, in order that you'd like them to execute
+* `animationType`: Either use the built in animations by passing in string names, or define your own animation objects like this:
 ```js
 let fadeUpIn = {
   keyframes: [
@@ -47,8 +47,8 @@ let fadeUpIn = {
 Read up on the [Web Animation API documentation](https://developer.mozilla.org/en/docs/Web/API/Animation) for more specific information on defining custom keyframes & timing.
 
 
-`interval`: Defines the delay between each element animating to get smooth sequential motion effects
-`trigger`: Takes either `'onlyWhenInView'` or `'onlyWhenInPartialView'` - These allow animation to be triggered when the element is either fully in the viewport or partially shown.
+* `interval`: Defines the delay between each element animating to get smooth sequential motion effects
+* `trigger`: Takes either `'onlyWhenInView'` or `'onlyWhenInPartialView'` - These allow animation to be triggered when the element is either fully in the viewport or partially shown.
 
 ## Roadmap
 If I get the time, these are a few pointers for the roadmap:
