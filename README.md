@@ -14,6 +14,7 @@ Choreo has a dependency on the `web-animation-next` polyfill to solve that. Make
 `https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations-next.min.js`
 
 ## Usage
+Install using npm:
 `$ npm install choreo.js --save-dev`
 
 Create as many scenes as you like using the `createScene` method, as shown below:
