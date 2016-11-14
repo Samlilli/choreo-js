@@ -1,5 +1,5 @@
 <p align="center">
-![Choreo.js](https://raw.githubusercontent.com/Samlilli/choreo-js/master/git.png)
+<img alt="Choreo.js" src="https://raw.githubusercontent.com/Samlilli/choreo-js/master/git.png" width="548">
 </p>
 
 Choreo.js is a lightweight helper for the Web Animations Javascript API, that allows you to:
