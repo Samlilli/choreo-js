@@ -8,6 +8,11 @@ Choreo.js is a lightweight helper for the Web Animations Javascript API, that al
   * Trigger animation scenes based on whether the elements are in or partially in the viewport
   * Provides a small animation library, with the option to create your own
 
+## Example
+
+[!example](blob:http://imgur.com/f6396781-a3f5-4c4d-ab6b-4e6582d8e8d0)
+
+
 ## Before you get creating slick animation sequences
 It's important to remember that the Web Animation API is [not quite fully supported](http://caniuse.com/#feat=web-animation) by all browsers.
 Choreo has a dependency on the `web-animation-next` polyfill to solve that. Make sure you include it:
