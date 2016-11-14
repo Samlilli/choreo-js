@@ -1,6 +1,8 @@
-# Choreo.js
+<p align="center">
+![Choreo.js](https://raw.githubusercontent.com/Samlilli/choreo-js/master/git.png)
+</p>
 
-Choreo is a lightweight helper for the Web Animations Javascript API, that allows you to:
+Choreo.js is a lightweight helper for the Web Animations Javascript API, that allows you to:
   * Choreograph scenes of animation on one or more elements
   * Set animation intervals on a group of elements to get smooth sequential effects
   * Trigger animation scenes based on whether the elements are in or partially in the viewport
