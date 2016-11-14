@@ -8,17 +8,14 @@ Choreo.js is a lightweight helper for the Web Animations Javascript API, that al
   * Trigger animation scenes based on whether the elements are in or partially in the viewport
   * Provides a small animation library, with the option to create your own
 
-## Example
-
-<img alt="Choreo.js" src="https://github.com/Samlilli/choreo-js/blob/master/choreo.gif">
-
-
-## Before you get creating slick animation sequences
+## Before you get creating slick animation sequences with Choreo.js
 It's important to remember that the Web Animation API is [not quite fully supported](http://caniuse.com/#feat=web-animation) by all browsers.
 Choreo has a dependency on the `web-animation-next` polyfill to solve that. Make sure you include it:
 `https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations-next.min.js`
 
 ## Usage
+`$ npm install choreo.js --save-dev`
+
 Create as many scenes as you like using the `createScene` method, as shown below:
 ```js
 import createScene from 'choreo';
@@ -55,7 +52,17 @@ Read up on the [Web Animation API documentation](https://developer.mozilla.org/e
 * `interval`: Defines the delay between each element animating to get smooth sequential motion effects
 * `trigger`: Takes either `'onlyWhenInView'` or `'onlyWhenInPartialView'` - These allow animation to be triggered when the element is either fully in the viewport or partially shown.
 
+
+## Example
+
+<img alt="Choreo.js" src="https://github.com/Samlilli/choreo-js/blob/master/choreo.gif">
+
+
 ## Roadmap
 If I get the time, these are a few pointers for the roadmap:
   * Allow elements in a scene to take their own animationType
   * Provide an `executeScene()` method to wrap scenes and pass triggers or mouse events/other interactions
+
+## License
+
+MIT © [Sam Lillicrap](https://github.com/samlilli)
