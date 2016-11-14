@@ -1,5 +1,5 @@
-import {isInViewport, isPartiallyInViewport} from './is-in-viewport';
-import * as animations from '../constants/animation-types';
+import {isInViewport, isPartiallyInViewport} from './constants/is-in-viewport';
+import * as animations from './constants/animation-types';
 
 let createScene = ({sceneDelay, elements, animationType, interval, trigger}) => {
 
@@ -52,7 +52,7 @@ let createScene = ({sceneDelay, elements, animationType, interval, trigger}) => 
         break;
       default: animation.play();
       }
-      
+
     }
   )
 }
