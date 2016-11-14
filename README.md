@@ -10,7 +10,8 @@ Choreo.js is a lightweight helper for the Web Animations Javascript API, that al
 
 ## Before you get creating slick animation sequences with Choreo.js
 It's important to remember that the Web Animation API is [not quite fully supported](http://caniuse.com/#feat=web-animation) by all browsers.
-Choreo has a dependency on the `web-animation-next` polyfill to solve that. Make sure you include it:
+Choreo has a dependency on the `web-animation-next` polyfill to solve that. Make sure you include it before executing scenes:
+
 `https://cdnjs.cloudflare.com/ajax/libs/web-animations/2.2.2/web-animations-next.min.js`
 
 ## Usage
@@ -19,7 +20,7 @@ Install using npm:
 
 Create as many scenes as you like using the `createScene` method, as shown below:
 ```js
-import createScene from 'choreo';
+import createScene from 'choreo.js';
 
 createScene({
   sceneDelay: 300,                          
