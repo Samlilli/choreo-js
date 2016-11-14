@@ -1,7 +1,8 @@
 <p align="center">
 <img alt="Choreo.js" src="https://raw.githubusercontent.com/Samlilli/choreo-js/master/git.png" width="548">
-</p>
 [![npm version](https://badge.fury.io/js/choreo.js.svg)](https://badge.fury.io/js/choreo.js)
+</p>
+
 Choreo.js is a lightweight helper for the Web Animations Javascript API, that allows you to:
   * Choreograph scenes of animation on one or more elements
   * Set animation intervals on a group of elements to get smooth sequential effects
